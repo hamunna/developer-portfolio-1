@@ -71,7 +71,7 @@ h2 {
 
 .footer-boxes {
     width: 80%;
-    height: 400px;
+    min-height: 400px;
     box-shadow: 5px 7px 40px 0 gray;
     border-radius: 6px;
 }
