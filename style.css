@@ -7,6 +7,14 @@ h1 {
     font-size: 50px;
 }
 
+#name-size {
+    font-size: 46px;
+}
+
+h2 {
+    font-size: 38px;
+}
+
 .flexible-display {
     display: flex;
     margin-bottom: 150px;
@@ -15,7 +23,7 @@ h1 {
 .half-width {
     width: 50%;
     margin-left: 5%;
-    margin-right: 1%;
+    margin-right: 5%;
     padding-left: 2%;
 }
 
@@ -26,7 +34,7 @@ h1 {
 }
 
 .hero-img-part img {
-    width: 80%;
+    width: 90%;
 }
 
 .orange-text {
@@ -47,6 +55,46 @@ h1 {
     color: #464646;
 }
 
+#dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: 100% 90%;
+}
+
 .dream-big-img img {
     width: 100%;
+}
+
+.font-normal {
+    font-weight: normal;
+}
+
+.footer-boxes {
+    width: 80%;
+    height: 350px;
+    box-shadow: 5px 7px 40px 0 gray;
+    border-radius: 6px;
+}
+
+#experiences {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0 80%;
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(#f44, #f77);
+    border-image-slice: 1;
+}
+
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
 }
