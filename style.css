@@ -4,20 +4,32 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 5vw;
+}
+
+p {
+    font-size: 1vw;
+}
+
+a {
+    font-size: 1.2vw;
 }
 
 #name-size {
-    font-size: 46px;
+    font-size: 3.3vw;
 }
 
 h2 {
-    font-size: 38px;
+    font-size: 2.8vw;
 }
 
 .flexible-display {
     display: flex;
     margin-bottom: 150px;
+}
+
+h3 {
+    font-size: 2vw;
 }
 
 .half-width {
@@ -35,6 +47,7 @@ h2 {
 
 .hero-img-part img {
     width: 90%;
+    margin-top: 13%;
 }
 
 .orange-text {
@@ -78,6 +91,7 @@ h2 {
 
 #experiences {
     background-image: url(images/exp-bg.png);
+    background-size: 8vw;
     background-repeat: no-repeat;
     background-position: 0 80%;
 }
